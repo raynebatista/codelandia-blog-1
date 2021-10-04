@@ -6,7 +6,7 @@
 
 O objetivo desse primeiro desafio era criar um blog simples, onde o layout fosse responsivo e também houvessem alguns eventos na página tanto para rolagem, como para favoritar notícias. 
 
-🚀 Live preview: 
+🚀 Live preview: [Clique Aqui](https://raynebatista.github.io/codelandia-blog-1/)
 
 
 ---
