@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #f3f5f7;
+  width: auto;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#574ae8, #3ea1db);
+  height: 230px;
+  padding: 40px 0;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header-container .title-header {
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+}
+
+.pesquisa {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.pesquisa input {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  outline: none;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 50px;
+  color: #fff;
+}
+
+.pesquisa input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.material-icons {
+  display: flex;
+  position: absolute;
+  width: 20px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 70%;
+  height: auto;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  border-radius: 5px;
+}
+
+.post i {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  color: #555be6;
+}
+
+article .post .data {
+  color: #b6b6b6;
+  font-size: 16px;
+  padding-top: 23px;
+  padding-left: 24px;
+}
+
+article .post h2 {
+  color: #313131;
+  font-size: 36px;
+  padding-left: 24px;
+}
+
+article .post .paragrafo {
+  color: #b6b6b6;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-left: 24px;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .post {
+    margin: 20px auto;
+  }
+  article .post .data {
+    font-size: 14px;
+  }
+
+  article .post h2 {
+    font-size: 30px;
+  }
+
+  article .post .paragrafo {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .post {
+    margin: 20px auto;
+  }
+  article .post .data {
+    font-size: 14px;
+  }
+
+  article .post h2 {
+    font-size: 30px;
+  }
+
+  article .post .paragrafo {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .post {
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  .pesquisa {
+    width: 100%;
+  }
+
+  article .post .data {
+    font-size: 12px;
+  }
+
+  article .post h2 {
+    font-size: 26px;
+  }
+
+  article .post .paragrafo {
+    font-size: 14px;
+  }
+}
